@@ -11,7 +11,7 @@ Este curso abrangeu os conceitos fundamentais do JavaScript, uma das linguagens 
 #### Projeto 1: Tela Interativa com Mudança de Cenário de Acordo com o Horário Nativo
 Neste projeto, criei uma tela interativa que muda o cenário de acordo com o horário local do dispositivo. Ademais, ele conta com botões clicáveis para a alteração de cenário.
 
-#### Oque aprendi: 
+##### Oque aprendi: 
 - Usar JavaScript para obter a hora atual do dispositivo.
 - Alterar elementos do DOM dinamicamente com base na hora.
 - Manipular imagens e o plano de fundo da tela com base no horário.
@@ -23,3 +23,4 @@ Neste projeto, criei uma tela interativa que muda o cenário de acordo com o hor
 </p>
 
 ---
+#### Projeto 2:
