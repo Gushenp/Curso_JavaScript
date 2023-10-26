@@ -1,7 +1,16 @@
 @charset "UTF-8";
 
 *{
+    cursor: default;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-top: 0px;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color:  rgba(32, 32, 32, 0.637);
 }
 
 body, html{
@@ -17,13 +26,18 @@ body, html{
 
 section{
     height:  auto;
-    width: 500px;
+    width: 350px;
     padding-bottom: 2em;
     margin: auto;
     text-align: center;
     background-color: rgba(32, 32, 32, 0.637);
     color: white;
     border-radius: 20px;
+    box-shadow: 4px 6px 8px 2px rgba(0, 0, 0, 0.555);
+}
+
+section > div > p{
+    margin: 1em;
 }
 
 div{
@@ -34,17 +48,20 @@ input{
     height: 30px;
     color: black;
     width: 60px;
-    margin-right: 10px;
+    margin-right: 20px;
     border: 0px;
     border-radius: 5px;
+    box-shadow: 4px 6px 8px 2px rgba(0, 0, 0, 0.555);
     transition: color .5s, background-color .5s, transform .5s;
 }
 
 input:hover{
-    color: white;
-    background-color: gray;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 7px 7px 8px 2px rgba(0, 0, 0, 0.555);
     transform: scale(1.1);
-    transition: color .5s, background-color .5s, transform .5s;
+    transition: color .5s, background-color .5s, transform .5s, box-shadown .5s;
 }
 
 img{
@@ -56,7 +73,13 @@ img{
 }
 
 footer{
-    padding-top: 1em;
+    margin: auto;
+    margin-top: 1em;
+    padding: .5em;
+    width: 200px;
+    border-radius: 10px;
+    background-color:  rgba(32, 32, 32, 0.637);
+    box-shadow: 4px 6px 8px 2px rgba(0, 0, 0, 0.555);
 }
 
 /* animações js */
