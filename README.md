@@ -19,7 +19,7 @@ Neste projeto, criei uma tela interativa que muda o cenário de acordo com o hor
 - Adicionar e remover classes CSS para criar transições suaves
 
 <p align="center">
-  <img width="320" height="250" src="Readmeimage/Projeto1.PNG">
+  <img width="410" height="328" src="Readmeimage/Projeto1.PNG">
 </p>
 
 ---
